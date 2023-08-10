@@ -12,4 +12,6 @@ p="CREATE TABLE quantity_info (milK INTEGER(4),coffee INTEGER(4),sugar INTEGER(3
 curr.execute(p)
 z="CREATE TABLE menu( name varchar(20),price INTEGER(3),milk INTEGER(3),coffee INTEGER(2),sugar INTEGER(2), water INTEGER(3))"
 curr.execute(z)
+m="CREATE TABLE revenue(Classicblackcoffee INTEGER(3), cafelatte INTEGER(3),cappuccino INTEGER(3),expresso INTEGER(3),mocha INTEGER (3),IcedCoffee INTEGER(3),IrishCoffee INTEGER(3),Total_revenue INTEGER(3))"
+curr.execute(m)
 zmm.commit()
